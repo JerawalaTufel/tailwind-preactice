@@ -642,8 +642,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-violet-100 {
-  --tw-gradient-to: #ede9fe var(--tw-gradient-to-position);
+.to-violet-300 {
+  --tw-gradient-to: #c4b5fd var(--tw-gradient-to-position);
 }
 
 .p-2 {
@@ -665,16 +665,49 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .pl-52 {
   padding-left: 13rem;
+}
+
+.pr-96 {
+  padding-right: 24rem;
 }
 
 .pt-52 {
   padding-top: 13rem;
 }
 
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[96\] {
+  padding-right: 96;
+}
+
+.pr-\[96rem\] {
+  padding-right: 96rem;
+}
+
+.pr-\[58rem\] {
+  padding-right: 58rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -694,6 +727,11 @@ video {
 .text-logoColor {
   --tw-text-opacity: 1;
   color: rgb(55 68 126 / var(--tw-text-opacity));
+}
+
+.text-violet-950 {
+  --tw-text-opacity: 1;
+  color: rgb(46 16 101 / var(--tw-text-opacity));
 }
 
 .text-white {
