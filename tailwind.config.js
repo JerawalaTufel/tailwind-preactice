@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors :{
-        logoColor : "#37447E"
+        logoColor : "#37447E",
+        buttonColor : "#111B47"
       }
     },
   },
